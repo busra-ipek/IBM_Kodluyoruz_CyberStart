@@ -5,7 +5,7 @@ import math
 # Math kütüphanesi ile matematiksel işlemler yapılabilir.
 
 points =[(1,3), (2,4), (2,5), (3,3), (4,1), (4,5)]
-# 1 ile 5  arasında değerler alan tuplelardan liste oluşturuldu.
+# İkişer eleman alan tuplelardan liste oluşturuldu.
 
 def euclideanDistance (point_1,point_2):        # iki nokta arasındaki uzaklığı hesaplama
     (x1, y1) = point_1   #point1'in ilk elemanı x1'e ikinci elemanı y1'e atanır.
@@ -27,7 +27,7 @@ for i in range(len(points)) : # i değeri sırayla point listesinin elemanların
         distances.append(mesafe) 
 
 min_mesafe = min(distances)
-#distance listesinden minimum 
+#distance listesinden minimum değer bulunur.
 print("İki nokta arasındaki minimum mesafe: ", min_mesafe)
 
 
