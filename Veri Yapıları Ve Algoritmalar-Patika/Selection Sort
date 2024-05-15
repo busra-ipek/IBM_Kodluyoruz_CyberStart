@@ -1,0 +1,25 @@
+[22,27,16,2,18,6] dizisinin Insertion Sort' a göre sıralanması
+
+İlk olarak 22 (A[0]) sayısı sıralanmış dizinin ilk elemanı olarak kabul edilir ve sıralanmamış dizinin ilk elemanı 27 (A[1]) sayısı ile karşılaştırılmaya başlanır.
+
+1- [22,27,16,2,18,6]	22<27 değişiklik yok.
+2- [16,22,27,2,18,6]	16<22 --> A[0] 16 olur ve dizi elemanları bir sağa kayar.
+3- [2,16,22,27,18,6]	2<16  --> A[0] 2 olur ve dizi elemanları bir sağa kayar.
+4- [2,16,18,22,27,6]	2<16<18 --> A[2] 18 olur ve dizi elemanları bir sağa kayar. 
+5- [2,6,16,18,22,27]	2<6<16 --> A[1] 6 olur ve dizi elemanları bir sağa kayar.
+
+Bu şekilde dizi Insertion Sort'a göre sıralanmış olur.
+
+Bu dizi için Big-O gösterimi: O(n) olur. Fakat Insertion Sort'un average ve worst case durumlarında Big-O gösterimi O(n^2)'dir.
+
+Dizi sıralandıktan sonra 18 sayısı Average case (Aradığımız sayının ortada olması) kapsamına girer.
+
+
+
+[7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımı
+
+1- [2,7,3,5,8,9,4,15,6]
+2- [2,3,7,5,8,9,4,15,6]
+3- [2,3,4,7,5,8,9,15,6]
+4- [2,3,4,5,7,8,9,15,6]
+ 
