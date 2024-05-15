@@ -1,1 +1,1 @@
-Bu repoda bulunan kodlar Python dilinde yazılmıştır.
+Bu repoda Python dilinin temel konuları ile Veri Yapıları ve Algoritmalar dersinin notları bulunmaktadır.
